@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>thermometer.png</file>
     <file>Incubator.png</file>
     <file>heart.png</file>
     <file>checked.png</file>
