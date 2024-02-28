@@ -1,6 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 from Assets import Resources_rc
+from ApplicationManager import *
 
 
 
@@ -142,6 +143,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     Monitor = QtWidgets.QMainWindow()
     ui = Ui_Monitor()
+    app = ApplicationManager(ui)
     ui.setupUi(Monitor)
     Monitor.show()
     sys.exit(app.exec_())
